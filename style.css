@@ -1,0 +1,44 @@
+header,main{
+    width: 1320px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.relative{
+    position: relative;
+    width: fit-content;
+}
+.absolute{
+    position: absolute;
+    right: 150px;
+    bottom: 40px;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.offer-img{
+    
+    padding: 25px;
+    border: 15px solid red;
+    border-radius: 400px;
+}
+.holidays{
+margin-top: 117px;
+}
+.holidays-img{
+    margin-top: 70px;
+    background-image: url("images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.fifty-percent{
+    position: relative;
+    top: -300px;
+}
+.portfolio-images-container{
+    display: flex;
+}
