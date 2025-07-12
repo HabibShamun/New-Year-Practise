@@ -1,33 +1,193 @@
-header,main{
-    width: 1320px;
-    margin: 0 auto;
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main,header{
+    width: 1320px;
+    margin: 0px auto;
+}
+
+/*shared styles*/
+.red-styles{
+    color: rgba(255, 0, 0, 1);
+}
+
 .text-center{
     text-align: center;
 }
+
+/*banner*/
+
+.banner-background-img {
+    background-image: url("images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 120px;
+    opacity: 0.99;
+
+}
+.banner-background-img h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.banner-background-img h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+.header-discount{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.discount{
+    margin-bottom: 120px;
+}
+.discount-description{
+    font-size: 24px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+.header-discount-category{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+
 .relative{
-    position: relative;
-    width: fit-content;
-}
-.absolute{
-    position: absolute;
-    right: 150px;
-    bottom: 40px;
-}
-.offer{
+    text-align: start;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    background-image: url("images/Vectorrr.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 16px;
+    padding: 0px 126px;
+    margin-bottom: 106px;
+}
+.relative h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+}
+.relative p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+}
+.relative button{
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.content{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 136px;
+    padding: 110px 0px;
+    background-image: linear-gradient(rgb(253, 229, 229),rgba(255, 255, 255, 1));
+    border-radius: 16px;
+}
+
+.content h3{
+    margin-bottom: 12px;
+    
+}
+.content button{
+    background-color: rgba(255, 0, 0, 1);
+    color:rgba(255, 255, 255, 1);
+    width: 167px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 36px;
+    
+}
+.offer{
+    display: flex;
+    align-items: center;
+}
+.offer title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.coming-soon-description{
+    font-size: 48px;
+    font-weight: 900;
+}
+.coming-soon-content{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+.offer-time{
+    font-size: 48px;
+    font-weight: bold;
+}
+.offer-content{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
 }
 .offer-img{
     
     padding: 25px;
     border: 15px solid red;
     border-radius: 400px;
+    margin: 0px 85px 0px 50px;
+}
+
+.offer-spacing{
+    margin-bottom: 20px;
 }
 .holidays{
 margin-top: 117px;
+margin-bottom: 120px;
+}
+
+.holidays-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 1);
+}
+.holidays-discount{
+    font-size: 72px;
+    font-weight: 900;
+    margin: 17px 0px 28px;
+}
+.holidays-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
 }
 .holidays-img{
     margin-top: 70px;
@@ -41,4 +201,100 @@ margin-top: 117px;
 }
 .portfolio-images-container{
     display: flex;
+}
+.portfolio-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 22px;
+}
+.portfolio-text-title {
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.portfolio-content{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+.newsletter{
+    margin: 120px 0px;
+    padding: 80px 212px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+.newsletter img{
+    margin-bottom: 40px;
+}
+.newsletter h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.newsletter p{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+.newsletter input[type="text"]{
+    width: 600px;
+    height: 72px;
+    border: none;
+/* TL     TR     BR     BL */
+border-radius: 50px 0px 0px 50px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.newsletter input[type="submit"]{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+        background-color: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(7, 2, 17, 1);
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-container{
+    width: 1140px;
+    padding: 120px 140px;
+    margin: 0px auto;
+}
+
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-section-one{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 50px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-section-two{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 48px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-section-three{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 50px;
 }
